@@ -1,0 +1,7 @@
+---
+applications:
+- name: example-app
+  memory: 64m
+  random-route: true
+  buildpack: https://bitbucket.org/cf-utilities/cf-buildpack-multi
+  
